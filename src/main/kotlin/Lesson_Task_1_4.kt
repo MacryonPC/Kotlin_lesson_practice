@@ -46,6 +46,7 @@ fun main() {
 //     Явно укажите тип переменной в следующем коде:
 //     val xxx = 12.0
     println("===================================")
+@Suppress("RedundantExplicitType")
     val xxx: Double = 12.0
     println("Answer: ${xxx::class.simpleName} \nresult: $xxx")
 }
